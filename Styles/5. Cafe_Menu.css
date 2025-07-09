@@ -1,0 +1,269 @@
+    /* Section  */
+#Menu {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 98vw;
+    align-self: center;
+    align-items: center;
+    background-color: burlywood;}
+
+    /* heading  */
+    #Menu h2 {
+        border: 3px solid black;
+        border-radius: 30px;
+        box-shadow: 2px 6px 10px 3px rgb(80, 26, 1);
+        align-self: center;
+        text-align: center;
+        font-weight: 600;
+        font-family: Lora-Bold;
+        background-image: url(../Images/11.jpg);
+        background-position: center;
+        background-size: cover;
+        background-clip: content-box;
+        margin-bottom: 5px;
+        width: 90vw;}
+
+        /* heading image */
+        #lgm {
+            display: inline;
+            vertical-align: middle;
+            position: relative;
+            bottom: 2px;
+        }
+
+        /* div */
+
+        #D_List {
+            width: 90vw;
+            border: 2px solid black;
+            margin: 5px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            vertical-align: middle;
+            background-image: url(../Images/11.jpg);
+            background-position: center;
+            background-size: cover;
+            background-clip: content-box;
+        }
+
+            /* table */
+            .menu_tab {
+                border-collapse: collapse;
+                font-size: 25px;
+                font-weight: 700;
+                text-align: center;
+                margin: 5px;
+            }
+        /* caption */
+        .d_type {
+            margin: 10px;
+            padding: 6px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: rgb(243, 209, 16);
+            font-family: Lora-Bold;
+            font-style: italic;
+            color: brown;
+        }
+
+            /* Dish Image */
+            .menu_img {
+                border: 1px solid black;
+                padding: 2px;
+                margin: 5px;
+                box-shadow: 2px 4px 7px 4px rgb(255, 173, 50);
+            }
+
+            /* Dish Name */
+            .menu_dish {
+                border: 2px solid black;
+                text-align: initial;
+                padding: 10px;
+            }
+
+            /* Dish Detail */
+
+            .M_det {
+                font-style: italic;
+                font-weight: 400;
+            }
+
+@media screen and (min-width: 280px) and (max-width:400px) {
+
+    /* Section  */
+    #Menu {
+        margin: 5px 1px;
+    }
+
+    /* heading  */
+    #Menu h2 {
+        height: 30px;
+        font-size: 20px;
+    }
+
+    /* heading image */
+    #lgm {
+        height: 25px;
+        width: 25px;}
+
+
+
+    /* caption */
+    .d_type {
+        font-size: 20px;
+    }
+
+    /* number row */
+    .Menu_num {
+        border: 2px solid black;
+        width: 10px;
+    }
+
+    /* Dish Image cell */
+    .d_img {
+        width: 60px;
+        border: 2px solid black;
+    }
+/* Dish Image */
+    .menu_img {
+        max-height: 70px;
+        width: 50px;
+    }
+
+    /* Dish Name */
+    .menu_dish {
+        width: 100px;
+        font-size: 15px;
+
+    }
+
+    /* Prise of Dish */
+    .Prise {
+        width: 50px;
+        border: 2px solid black;
+        font-size: 20px;
+
+    }   }
+
+
+        @media screen and (min-width: 401px) and (max-width:600px) {
+    
+            /* Section  */
+            #Menu {
+                margin: 8px 1px;
+            }
+    
+            /* heading  */
+            #Menu h2 {
+                height: 37px;
+                font-size: 27px;
+            }
+    
+            /* heading image */
+            #lgm {
+                height: 32px;
+                width: 32px;
+            }
+    
+    
+    
+            /* caption */
+            .d_type {
+                font-size: 24px;
+            }
+    
+            /* number row */
+            .Menu_num {
+                border: 2px solid black;
+                width: 16px;
+            }
+    
+            /* Dish Image cell */
+            .d_img {
+                width: 110px;
+                border: 2px solid black;
+            }
+    
+            /* Dish Image */
+            .menu_img {
+                max-height: 130px;
+                width: 100px;
+            }
+    
+            /* Dish Name */
+            .menu_dish {
+                width: 190px;
+                font-size: 18px;
+    
+            }
+    
+            /* Prise of Dish */
+            .Prise {
+                width: 80px;
+                border: 2px solid black;
+                font-size: 27px;
+    
+            }
+        }
+/* **************************************************************************************************************** */
+
+@media screen and (min-width: 600px) {
+
+/* Section  */
+    #Menu{
+        margin: 10px 1px;
+    }
+    /* heading  */
+    #Menu h2{
+
+        height: 45px;
+        font-size: 30px;
+}
+    /* heading image */
+    #lgm {
+        height: 40px;
+        width: 40px;
+       }
+       
+
+       /* caption */
+        .d_type{
+            font-size: 30px;
+        }
+
+        /* number row */
+        .Menu_num{
+            border: 2px solid black;
+            width: 100px;
+        }
+
+
+        /* Dish Image cell */
+        .d_img{
+            width: 150px;
+            border: 2px solid black;
+        }
+        /* Dish Image */
+        .menu_img{
+            height: 120px;
+            max-width: 200px;
+        }
+        
+        /* Dish Name */
+        .menu_dish{
+            width: 500px;
+            font-size: 30px;
+
+        }
+
+/* Prise of Dish */
+        .Prise{
+            width: 150px;
+            border: 2px solid black;
+
+        }
+
+}

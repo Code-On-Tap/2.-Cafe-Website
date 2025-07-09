@@ -1,0 +1,45 @@
+@font-face {
+    font-family:Libre-Bold;
+    src: url(../Asset/Fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf);
+}
+@font-face {
+    font-family: Libre-Italic;
+    src: url(../Asset/Fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf);
+}
+@font-face {
+    font-family: Libre-Regular;
+    src: url(../Asset/Fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lora-Bold;
+    src: url(../Asset/Fonts/Lora/static/Lora-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lora-Bold-Italic;
+    src: url(../Asset/Fonts/Lora/static/Lora-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Lora-Variable;
+    src: url(../Asset/Fonts/Lora/Lora-VariableFont_wght.ttf);
+}
+
+*{
+    font-style: normal;
+    text-decoration-line: none; 
+}
+
+header{
+    width: 98vw;
+    padding: 5px;
+    margin: 1px 1px;
+    border: 2px solid black;
+    height: fit-content;
+
+}
+
+body{
+    align-items: center;
+}

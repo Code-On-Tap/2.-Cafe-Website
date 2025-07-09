@@ -1,0 +1,148 @@
+#Hero{
+    width: 98vw;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 1px;
+    padding: 0px;
+    align-self: center;
+    background-color: burlywood;
+}
+
+#Hero p {
+    width: 90vw;
+    align-self: center;
+    text-align: center;
+    background-image: url(../Images/11.jpg);
+    background-size: cover;
+    padding: 5px;
+    font-family: Lora-Bold-Italic;
+    font-weight: 600;
+    font-style: italic;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 2px 4px 10px 4px;
+}
+
+#Hero-i-Div{
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    background-color: rgb(195,150,100);
+}
+
+.h-imh {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    align-self: center;
+    object-fit: contain;
+    margin: 10px;
+    box-shadow: 0px 3px 10px 4px black;
+}
+
+
+.h-imh:active{
+    transform: scale(1.2);
+    z-index: 500;
+    transition: all 0.3s ease-in-out 0.08s;
+    overflow: visible;
+    margin: 50px;
+}
+
+#Hero button {
+
+    font-family: Lora-Bold;
+    background-color: rgb(116, 147, 195);
+    align-self: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px 4px rgb(116, 147, 195);
+}
+
+#Hero button:hover{
+    transform: scale(1.2);
+    background-color: rgb(174, 250, 81);
+    transition: all 1s ease-in-out 0.001;
+    box-shadow: 0px 2px 7px 4px rgb(97, 202, 22);
+}
+#Hero button:active{
+    transform: scale(.9);
+    background-color: rgb(250, 84, 81);
+    transition: all 0.5s ease-in-out 0.001;
+    box-shadow: 0px 2px 7px 4px rgba(17, 16, 16, 0.938);
+}
+
+
+
+@media screen and (min-width:600px) {
+    #Hero p {
+            height: 45px;
+            font-size: 35px;
+            margin: 15px;
+           }
+
+            .h-imh {
+                max-width: 700px;
+                height: 500px;
+            } 
+
+            
+            #Hero button {
+                font-size: 25px;
+                width: 150px;
+                margin: 15px;  }
+
+}
+
+
+
+@media screen and (min-width:401px) and (max-width:600px){
+    #Hero p {
+        height: 30px;
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    .h-imh {
+        max-width: 370px;
+        height: 300px;
+    }
+
+
+    #Hero button {
+        font-size: 20px;
+        width: 120px;
+        margin: 15px;
+    }
+
+}
+
+
+@media screen and (min-width:280px) and (max-width:400px) {
+    #Hero p {
+        height: 25;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .h-imh {
+        max-width: 250px;
+        height: 200px;
+    }
+
+
+    #Hero button {
+        font-size: 15px;
+        width: 100px;
+        margin: 10px;
+    }
+
+}
