@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="Styles/4. Hero-sec.css">
     <link rel="stylesheet" href="Styles/5. Cafe_Menu.css">
     <link rel="stylesheet" href="Styles/6. about.css">
+    <link rel="stylesheet" href="Styles/7. Contact.css">
 </head>
 <body>
 
@@ -36,6 +37,7 @@
 <!-- ************************************************* HERO SECTION ******************************************************* -->
 
         <section id="Hero">
+            <h2>Home</h2>
             <p>"Welcome to Café Aroma" </p>
             <div id="Hero-i-Div">
                 <img src="Images/1.png" alt="Images" class="h-imh">
@@ -52,11 +54,11 @@
 <!-- *************************** ********************** Section  MEnu ******************************************************* -->
 
         <section id="Menu">
-            <h2><img id="lgm" src="Images/12.jpg" alt="logo">Café Aroma MENU<img id="lgm" src="Images/12.jpg" alt="logo"></h2>
+            <h2>MENU</h2>
             
             
             <div id="D_List">
-
+                <h3><img id="lgm" src="Images/12.jpg" alt="logo">Café Aroma MENU<img id="lgm" src="Images/12.jpg" alt="logo"></h3>
                 <table class="menu_tab">
                     <caption class="d_type">Beverages</caption>
                 
@@ -203,6 +205,7 @@
 <!-- ************************************************* About ******************************************************* -->
 
         <section id="About">
+            <h2>About</h2>
             <img id="ab_img" src="Images/1.png" alt="Cafe Image">
             <div id="ab_div">
                 <h3>☕ About My Café in the Heart of the City ☕</h3>
@@ -259,16 +262,58 @@
     <section id="contact">
             
         <h2>Contact us</h2>
-        <div id="coct_div">
-            <iframe src="" frameborder="0"></iframe>
-            <div>
-                <form action="">
-                    <label for="">Name</label>
+        <div id="cont_div">
+
+
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.9205977031934!2d75.7995282745047!3d26.90601496038011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db41c91a37539%3A0x40b649239fc50017!2sStepout%20Cafe!5e0!3m2!1sen!2sin!4v1752218864624!5m2!1sen!2sin"
+                width="600" height="450"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            
+            <div id="ctfo">
+            
+                <form action="" id="form">
+                    <div class="star-rating">
+
+                    </div>
+                    <input type="radio" id="5-stars" name="rating" value="5">
+                    <label for="5-stars">★</label>
+            
+                    <input type="radio" id="4-stars" name="rating" value="4">
+                    <label for="4-stars">★</label>
+            
+                    <input type="radio" id="3-stars" name="rating" value="3">
+                    <label for="3-stars">★</label>
+            
+                    <input type="radio" id="2-stars" name="rating" value="2">
+                    <label for="2-stars">★</label>
+            
+                    <input type="radio" id="1-star" name="rating" value="1">
+                    <label for="1-star">★</label>
+            <br><br>
+                    <label for="cus_name">Name:</label>
+                    <input type="text" id="cus_name" placeholder="e.g Ram" name="Name" value="Ram" required> <br><br>
+                    <label for="cus_email">Email:</label>
+                    <input type="email" id="cus_email" name="Email ID" Value="@gmail.com" placeholder="ram@gmail.com">
+                    <br><br>
+                    <label for="cus_feedback">Feedback</label>
+                    <textarea name="Feedback" id="cus_feedback" placeholder="min. 20 words required" required></textarea> <br>
+            
+                    <button type="submit">Submit</button>
                 </form>
-                <p>Email : support_cafearoma@gmail.com</p>
-                <p>Phone no.: 95682XXXXX</p>
-                <Address>Address: Pratap nagar jaipur </Address>  
+            <br>
+            
+                <address id="cont_det">
+                    Email: <a href="mailto:support_cafearoma@gmail.com">support_cafearoma@gmail.com</a><br>
+                    Phone no.: <a href="tel:95682XXXXX">95682XXXXX</a><br>
+                    WhatsApp: <a href="https://wa.me/9195682XXXXX">Chat on WhatsApp</a>
+                    Address: <a href="Aroma cafe Pratap Nagar, Jaipur"></a>
+                </address>
+            
+            
             </div>
+           
         </section>
 
 

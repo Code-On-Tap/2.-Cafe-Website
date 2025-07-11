@@ -1,0 +1,27 @@
+#contact{
+    width: 98vw;
+    padding: 0px;
+    margin: 10px 1px;
+    border: 3px solid black;
+    background-color: burlywood;
+    align-self: center;
+}
+
+#contact h2{
+text-align: center;   
+}
+
+#cont_div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#map{
+    border: 2px solid black;
+    display: block;
+}
+
+#ctfo{
+    display: ;
+}
