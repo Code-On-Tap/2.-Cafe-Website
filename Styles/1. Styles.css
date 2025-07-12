@@ -29,6 +29,7 @@
 *{
     font-style: normal;
     text-decoration-line: none; 
+    color: black;
 }
 
 header{
@@ -43,3 +44,4 @@ header{
 body{
     align-items: center;
 }
+

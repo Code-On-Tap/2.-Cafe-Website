@@ -9,6 +9,15 @@
     justify-content: safe;
     align-self: center;
 }
+        #About h2 {
+            font-size: 32px;
+            color: black;
+            font-family: Libre-Bold;
+            position: relative;
+            left: 10px;
+            align-self: normal;
+        }
+
 #ab_img{
     display: block;
     width: 50%;

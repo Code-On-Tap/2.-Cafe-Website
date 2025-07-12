@@ -15,13 +15,28 @@ text-align: center;
     width:100%;
     display: flex;
     flex-direction: row;
+    justify-content:space-around;
 }
 
 #map{
-    border: 2px solid black;
+    border: 4px solid black;
     display: block;
+    width: 48%;
+    margin-bottom: 10px;
 }
 
 #ctfo{
-    display: ;
+    border: 3px solid black;
+    width:48%;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.la{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.la a{
+    color: blue;
 }
