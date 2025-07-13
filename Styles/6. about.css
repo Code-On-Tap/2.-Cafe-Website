@@ -1,50 +1,45 @@
 #About{
     width: 98vw;
     padding:0px;
-    margin: 10px 1px;
     border: 3px solid black;
     background-color: burlywood;
+    align-self: center;
+}
+
+    #About h2 {
+        color: black;
+        font-family: Libre-Bold;
+        position: relative;
+        left: 10px;
+    }
+
+#abdivc{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: safe;
     align-self: center;
 }
-        #About h2 {
-            font-size: 32px;
-            color: black;
-            font-family: Libre-Bold;
-            position: relative;
-            left: 10px;
-            align-self: normal;
-        }
+
 
 #ab_img{
     display: block;
-    width: 50%;
-    margin: 10px;
+    width: 48%;
     height: fit-content;
-    box-shadow: 0px 0px 10px 10px rgb(253, 188, 67);
 }
 #ab_div{
     
-    width: 50%;
+    width: 52%;
     height: auto;
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 40 / 42;
     object-fit: cover;
-    margin: 10px;
-    padding: 5px;
-    font-size: 16px;
-    box-shadow: 0px 0px 10px 10px rgb(110, 110, 110);
     font-family: Libre-Regular;
-    overflow-y: scroll;
-
-    
+    overflow-y: scroll;  
 }
 #ab_div h3{
     font-family: Lora-Bold;
     align-self: center;
     text-align: center;
-    font-size: 20px;
 }
 #ab_p{
     font-family: Lora-Italic;
@@ -65,4 +60,112 @@
 
 #span_m{
     margin: 2px;
+}
+
+@media screen and (min-width:600px) {
+    #About {
+            margin: 10px 1px;
+        }
+    
+        #About h2 {
+            font-size: 38px;
+            left: 10px;
+        }
+    
+        #ab_img {
+    
+            margin: 10px;
+            box-shadow: 0px 0px 10px 10px rgb(253, 188, 67);
+        }
+    
+        #ab_div h3 {
+            font-size: 23px;
+        }
+    
+        #ab_div {
+    
+            margin: 10px;
+            padding: 5px;
+            font-size: 18px;
+            box-shadow: 0px 0px 10px 10px rgb(110, 110, 110);
+            overflow-y: scroll;
+        }
+}
+
+@media screen and (min-width:400px) and (max-width: 600px){
+
+    #About {
+            margin: 7px 1px;
+            }
+    
+        #About h2 {
+            font-size: 32px;
+            left: 7px;
+        }
+
+        #ab_img {
+
+            margin: 6px;
+            box-shadow: 0px 0px 7px 7px rgb(253, 188, 67);
+        }
+
+        #ab_div h3 {
+            font-size: 18px;
+        }
+    
+        #ab_div {
+    
+            margin: 6px;
+            padding: 3px;
+            font-size: 15px;
+            box-shadow: 0px 0px 7px 7px rgb(110, 110, 110);
+            overflow-y: scroll;
+        }
+
+}
+
+
+@media screen and (min-width:280px) and (max-width: 400px) {
+        #About {
+                margin: 4px 1px;
+            }
+        
+            #About h2 {
+                font-size: 25px;
+                left: 5px;
+            }
+                        #abdivc {
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: safe;
+                            align-self: center;
+                        }
+        
+            #ab_img {
+                width: 80%;
+                align-self: center;
+                height: fit-content;
+                margin: 6px;
+            }
+        
+            #ab_div h3 {
+                font-size: 18px;
+            }
+                #ab_div {
+        
+                    width: 80%;
+                    align-self: center;
+                    object-fit: cover;
+                    font-family: Libre-Regular;
+                    overflow-y: scroll;
+                }
+            #ab_div {
+        
+                margin: 6px;
+                padding: 3px;
+                font-size: 15px;
+
+            }
+        
 }
