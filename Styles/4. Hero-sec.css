@@ -84,37 +84,38 @@
 
 
 
-@media screen and (min-width:600px) {
+
+
+@media screen and (min-width:280px) and (max-width:450px) {
     #Hero h2 {
-            font-size: 38px;
-            color: black;
-            font-family: Libre-Bold;
-            position: relative;
-            left:10px;
-        }
+        font-size: 28px;
+        color: black;
+        font-family: Libre-Bold;
+        position: relative;
+        left: 5px;
+    }
 
     #Hero p {
-            height: 45px;
-            font-size: 35px;
-            margin: 15px;
-           }
+        height: 25;
+        font-size: 20px;
+        margin: 10px;
+    }
 
-            .h-imh {
-                max-width: 700px;
-                height: 500px;
-            } 
+    .h-imh {
+        max-width: 250px;
+        height: 200px;
+    }
 
-            
-            #Hero button {
-                font-size: 25px;
-                width: 150px;
-                margin: 15px;  }
+
+    #Hero button {
+        font-size: 15px;
+        width: 100px;
+        margin: 10px;
+    }
 
 }
 
-
-
-@media screen and (min-width:401px) and (max-width:600px){
+@media screen and (min-width:451px) and (max-width:600px){
 
         #Hero h2 {
                 font-size: 32px;
@@ -144,31 +145,31 @@
 }
 
 
-@media screen and (min-width:280px) and (max-width:400px) {
+@media screen and (min-width:600px) {
     #Hero h2 {
-            font-size: 28px;
-            color: black;
-            font-family: Libre-Bold;
-            position: relative;
-            left: 5px;
-        }
+        font-size: 38px;
+        color: black;
+        font-family: Libre-Bold;
+        position: relative;
+        left: 10px;
+    }
 
     #Hero p {
-        height: 25;
-        font-size: 20px;
-        margin: 10px;
+        height: 45px;
+        font-size: 35px;
+        margin: 15px;
     }
 
     .h-imh {
-        max-width: 250px;
-        height: 200px;
+        max-width: 700px;
+        height: 500px;
     }
 
 
     #Hero button {
-        font-size: 15px;
-        width: 100px;
-        margin: 10px;
+        font-size: 25px;
+        width: 150px;
+        margin: 15px;
     }
 
 }

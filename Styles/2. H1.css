@@ -34,7 +34,7 @@ h1:hover {
 }
 
 /* between width 280px and 400px */
-@media screen and (min-width:280px) and (max-width:400px) {
+@media screen and (min-width:280px) and (max-width:450px) {
     h1 {
         font-size: 30px;
         height: 35px;
@@ -56,7 +56,7 @@ h1:hover {
 
 
 /* between width 401px and 600px */
-@media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:450px) and (max-width:600px) {
     h1 {
         font-size: 35px;
         height: 40px;
