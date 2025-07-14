@@ -7,9 +7,13 @@
     align-self: center;
 }
 
-#contact h2{
-text-align: center;   
-}
+    #contact h2 {
+        font-size: 38px;
+        color: black;
+        font-family: Libre-Bold;
+        position: relative;
+        left: 10px;
+        align-self: normal;}
 
 #cont_div{
     width:100%;
@@ -18,11 +22,13 @@ text-align: center;
     justify-content:space-around;
 }
 
+
 #map{
     border: 4px solid black;
     display: block;
     width: 48%;
     margin-bottom: 10px;
+    height:;
 }
 
 #ctfo{
@@ -32,11 +38,80 @@ text-align: center;
     margin-bottom: 10px;
 }
 
-.la{
-    margin-top: 10px;
-    border: 2px solid black;
+#form{
+    margin:8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.lbl{
+    
+    margin-top: 8px;
+    padding: 1px;
+    font-weight: 600;
+    
+}
+.lbl:hover{
+    font-size: 1.05em;
+    color: brown;
 }
 
-.la a{
+.indet{
+        
+    font-weight: 500;
+    font-style: italic;
+    font-size: .8em;
+    border: 1px solid black;
+    background-color:rgb(255, 255, 255);
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.indet:hover {
+    border: 2px solid rgb(1, 69, 255);
+}
+#form textarea{
+    text-align:unset;
+    padding: 5px;
+}
+
+form button{
+    align-self: center;
+    background-color: rgb(15, 65, 231);
+    border-radius: 10px;
+    height: 27px;
+    width: 100px;
+    padding: 3px;
+    font-weight: 900;
+    box-shadow: 0 0 4px 4px grey ;
+}
+
+#form button:hover {
+    color: rgb(34, 179, 15);
+    background-color: blueviolet;
+    transform:scale(1.1);
+}
+
+#cadd_det{
+    margin: 8px;
+    padding: 5px;
+}
+.ladd{
+    font-size: 1em;
+    margin-top: 5px;
+    padding: 1px;
+    font-weight: 600;
+}
+
+.ladd a{
     color: blue;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .9em;
+}
+#cadd{
+        font-weight: 400;
+        font-style: italic;
+        font-size: .8em;
 }
